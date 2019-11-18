@@ -35,7 +35,7 @@ jobs:
       - save_cache:
           paths:
             - node_modules
-            - key: v1-dependencies-{{ checksum "" }}
+            - key: v1-dependencies-{{ checksum " " }}
 
       # - save_cache:
       #     paths:
